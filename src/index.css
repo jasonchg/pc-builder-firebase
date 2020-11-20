@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary: #1d3557;
+  --secondary: #457b9d;
+  --info: #a8dadc;
+  --light: #f1faee;
+  --danger: #e63946;
+  --success: #7dd161;
+}
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+/* Home Card Options */
+#option {
+  cursor: pointer;
+}
+#option:hover {
+  transform: scale(1.05);
+  transition: 0.1s;
 }
